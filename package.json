@@ -1,0 +1,16 @@
+{
+  "name": "aemcs-api-client-lib-demo",
+  "description": "Demo for AEM-CS API Client Library",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@adobe/aemcs-api-client-lib": "git+https://github.com/adobe/aemcs-api-client-lib.git#main",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1",
+    "yargs": "^16.2.0"
+  }
+}

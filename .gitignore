@@ -1,3 +1,5 @@
 .idea/
 *.iml
 node_modules
+local_development_token_*.json
+service_token_*.json
