@@ -24,13 +24,13 @@ node workflow.js --aem https://author-p19554-e28364-cmstg.adobeaemcloud.com \
                  --file service_token_cm-p19554-e28364.json
 ```
 
-## Help
+## Help
 
 ```
 node workflow.js -h
 ```
 
-## Links
+## Links
 
 * [AEM-CS API Client Library](https://github.com/adobe/aemcs-api-client-lib)
 * [Generating Access Tokens for Server Side APIs](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/generating-access-tokens-for-server-side-apis.html?lang=en#the-server-to-server-flow)
