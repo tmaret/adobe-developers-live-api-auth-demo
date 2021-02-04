@@ -2,14 +2,15 @@
   "name": "aemcs-api-client-lib-demo",
   "description": "Demo for AEM-CS API Client Library",
   "version": "0.0.1",
-  "main": "index.js",
+  "main": "workflow.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node workflow.js"
   },
   "license": "Apache-2.0",
   "dependencies": {
     "@adobe/aemcs-api-client-lib": "git+https://github.com/adobe/aemcs-api-client-lib.git#main",
-    "express": "^4.17.1",
+    "form-data": "^3.0.0",
+    "node-cache": "^5.1.2",
     "node-fetch": "^2.6.1",
     "yargs": "^16.2.0"
   }
