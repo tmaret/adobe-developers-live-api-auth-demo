@@ -46,7 +46,10 @@ var config = JSON.parse(fs.readFileSync(argv.file, 'utf8'))
 /*
  * Run the workflow every 30 seconds
  */
-setInterval(updateOnTime, 30 * 1000);
+setInterval(function wf(){
+    updateOnTime()
+    return wf
+}() , 30 * 1000);
 
 /*
  * Update `onTime` property using the Apache Sling Post Servlet
