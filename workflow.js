@@ -34,7 +34,7 @@ const argv = yargs(process.argv.slice(2))
         default: '/content/dam/wknd/en/adventures/bali-surf-camp/AdobeStock_175749320.jpg'
     })
     .option('file', {
-        description: 'File containing Service Credentials obtained via the Developer Console',
+        description: 'File containing Service Credentials or Local Development Token obtained via the Developer Console',
         type: 'string',
         default: 'service_token_cm-p19554-e28364.json'
     })
