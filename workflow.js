@@ -89,6 +89,8 @@ async function getAccessToken() {
  * Get an access token via the JWT exchange flow.
  *
  * The access token is reused until it has expired.
+ *
+ * The exchange is done using the AEM-CS API Client Library @ https://github.com/adobe/aemcs-api-client-lib
  */
 async function exchangeAccessToken() {
     const token = cache.get('token')
